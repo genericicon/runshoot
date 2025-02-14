@@ -22,5 +22,5 @@ function Think()
         end
         
     end
-    return 2
+    return Convars:GetFloat("runshoot_rethink_search") or 2
 end
